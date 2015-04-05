@@ -13,22 +13,21 @@
 #
 
 
-Name:		paper-icon-theme
-Version:	1.0
-Release:	1
+Name:           paper-icon-theme
+Version:        1.0
+Release:        2%{?dist}
 
-Summary:	Paper Icon theme
-Group:		System/GUI/Other
+Summary:        Paper Icon theme
 License:    CC-BY-SA-4.0
-Group:      System/GUI/GNOME
+
 Url:        http://snwh.org/paper-icon-theme
-Source0:	%{name}-%{version}.tar.gz
-Requires:	hicolor-icon-theme, gnome-icon-theme
-BuildArch:	noarch
+Source:        %{name}-%{version}.tar.gz
+Requires:       hicolor-icon-theme, gnome-icon-theme
+BuildArch:      noarch
 
 
 %description
-Paper Icon Theme
+Icon theme for the Paper-Gtk-theme, inspired by Google's Material design.
 
 %prep
 %setup -q
@@ -45,3 +44,8 @@ cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
 %files
 %doc AUTHORS LICENSE
 %{_datadir}/icons/Paper/
+
+%changelog
+* Sun Apr 05 2015 Liam Bulkley <liam@fightingcrane.com> 1.0-2
+- new package built with tito
+titofied for copr
