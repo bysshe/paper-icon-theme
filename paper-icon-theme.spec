@@ -15,7 +15,7 @@
 
 Name:           paper-icon-theme
 Version:        1.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 
 Summary:        Paper Icon theme
 License:    CC-BY-SA-4.0
@@ -46,6 +46,9 @@ cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
 %{_datadir}/icons/Paper/
 
 %changelog
+* Tue Apr 07 2015 Liam Bulkley <liam@fightingcrane.com> 1.0-3
+- Updated a few icons (hewittsamuel@gmail.com)
+
 * Sun Apr 05 2015 Liam Bulkley <liam@fightingcrane.com> 1.0-2
 - new package built with tito
 titofied for copr
