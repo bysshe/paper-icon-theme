@@ -14,8 +14,8 @@
 
 
 Name:           paper-icon-theme
-Version:        1.0
-Release:        3%{?dist}
+Version:        1.1
+Release:        1%{?dist}
 
 Summary:        Paper Icon theme
 License:    CC-BY-SA-4.0
@@ -46,6 +46,12 @@ cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
 %{_datadir}/icons/Paper/
 
 %changelog
+* Sat Apr 11 2015 Liam Bulkley <liam@fightingcrane.com> 1.1-1
+- Merge branch 'master' of https://github.com/snwh/paper-icon-theme
+  (liam@fightingcrane.com)
+- Fixed typo (hewittsamuel@gmail.com)
+- Added 22px panel icons. (hewittsamuel@gmail.com)
+
 * Tue Apr 07 2015 Liam Bulkley <liam@fightingcrane.com> 1.0-3
 - Updated a few icons (hewittsamuel@gmail.com)
 
