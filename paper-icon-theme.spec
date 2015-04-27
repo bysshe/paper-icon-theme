@@ -14,7 +14,7 @@
 
 
 Name:           paper-icon-theme
-Version:        1.4
+Version:        1.5
 Release:        1%{?dist}
 
 Summary:        Paper Icon theme
@@ -46,6 +46,17 @@ cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
 %{_datadir}/icons/Paper/
 
 %changelog
+* Mon Apr 27 2015 Liam Bulkley <liam@fightingcrane.com> 1.5-1
+- Merge branch 'master' of https://github.com/snwh/paper-icon-theme
+  (liam@fightingcrane.com)
+- More symlinks (hewittsamuel@gmail.com)
+- Added icons. (hewittsamuel@gmail.com)
+- Added a bunch of symlinks (hewittsamuel@gmail.com)
+- Added some symlinks (hewittsamuel@gmail.com)
+- Added some icons (hewittsamuel@gmail.com)
+- Added icons. (hewittsamuel@gmail.com)
+- Added icons completed others. (hewittsamuel@gmail.com)
+
 * Fri Apr 24 2015 Liam Bulkley <liam@fightingcrane.com> 1.4-1
 - 
 
