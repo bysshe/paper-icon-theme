@@ -14,7 +14,7 @@
 
 
 Name:           paper-icon-theme
-Version:        1.9
+Version:        1.10
 Release:        1%{?dist}
 
 Summary:        Paper Icon theme
@@ -46,6 +46,9 @@ cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
 %{_datadir}/icons/Paper/
 
 %changelog
+* Mon Jun 15 2015 liam bulkley <liam@fightingcrane.com> 1.10-1
+- 
+
 * Mon Jun 15 2015 liam bulkley <liam@fightingcrane.com> 1.9-1
 - 
 
